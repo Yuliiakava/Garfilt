@@ -32,7 +32,7 @@
             position: absolute;
             width: 100px;
             height: 100px;
-            background: url('https://i.imgur.com/8PbI5Rr.png') no-repeat center/contain;
+            background: url('https://assets.piliapp.com/s3pxy/emoji/meaning/preview/black-cat.png?polish=2') no-repeat center/contain;
         }
 
         .kitten-1 {
