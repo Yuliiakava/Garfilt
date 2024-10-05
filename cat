@@ -32,7 +32,7 @@
             position: absolute;
             width: 100px;
             height: 100px;
-            background: url('https://w7.pngwing.com/pngs/514/468/png-transparent-black-cat-dog-cat-relationship-silhouette-cat-mammal-animals-cat-like-mammal-thumbnail.png') no-repeat center/contain;
+            background: url('https://i.pinimg.com/564x/65/98/3f/65983f850f801f9166e0fc0929bcf1f6.jpg') no-repeat center/contain;
         }
 
         .kitten-1 {
