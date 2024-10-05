@@ -32,7 +32,12 @@
             position: absolute;
             width: 100px;
             height: 100px;
-            background: url('https://www.shutterstock.com/image-vector/this-simple-elegant-black-cat-600nw-2415064775.jpg') no-repeat center/contain;
+        }
+
+        .kitten svg {
+            fill: black; /* Силует чорного кольору */
+            width: 100%;
+            height: 100%;
         }
 
         .kitten-1 {
@@ -87,8 +92,20 @@
 <body>
     <div id="text">Натисни, щоб змінити текст!</div>
 
-    <div class="kitten kitten-1"></div>
-    <div class="kitten kitten-2"></div>
+    <!-- Кошеня 1 -->
+    <div class="kitten kitten-1">
+        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <path d="M32 1.5c-8.836 0-16 7.164-16 16 0 2.21.448 4.32 1.254 6.222a8 8 0 1 0 11.884 0A15.954 15.954 0 0 0 32 17.5a15.954 15.954 0 0 0-2.506 6.222 8 8 0 1 0 11.884 0A15.944 15.944 0 0 0 48 17.5c0-8.836-7.164-16-16-16z" />
+        </svg>
+    </div>
+
+    <!-- Кошеня 2 -->
+    <div class="kitten kitten-2">
+        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <path d="M32 1.5c-8.836 0-16 7.164-16 16 0 2.21.448 4.32 1.254 6.222a8 8 0 1 0 11.884 0A15.954 15.954 0 0 0 32 17.5a15.954 15.954 0 0 0-2.506 6.222 8 8 0 1 0 11.884 0A15.944 15.944 0 0 0 48 17.5c0-8.836-7.164-16-16-16z" />
+        </svg>
+    </div>
+
     <div class="heart">🤍</div>
 
     <script>
@@ -193,7 +210,6 @@
         textElement.addEventListener('click', function() {
             currentIndex = (currentIndex + 1) % texts.length;
             typeText(texts[currentIndex], function() {
-                // Якщо це останнє повідомлення
                 if (currentIndex === texts.length - 1) {
                     kitten1.style.animation = 'moveToCenter1 5s forwards';
                     kitten2.style.animation = 'moveToCenter2 5s forwards';
