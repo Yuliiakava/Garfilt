@@ -32,7 +32,7 @@
             position: absolute;
             width: 100px;
             height: 100px;
-            background: url('https://i.pinimg.com/564x/65/98/3f/65983f850f801f9166e0fc0929bcf1f6.jpg') no-repeat center/contain;
+            background: url('<a href="https://www.flaticon.com/free-icons/black-cat" title="black-cat icons">Black-cat icons created by IconsNova - Flaticon</a>') no-repeat center/contain;
         }
 
         .kitten-1 {
